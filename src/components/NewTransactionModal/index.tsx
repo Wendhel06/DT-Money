@@ -10,6 +10,7 @@ import { ArrowCircleDown, ArrowCircleUp, X } from "phosphor-react";
 import { Controller, useForm } from "react-hook-form";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { api } from "../../lib/axios";
 
 export function NewTransactionModal() {
   const modalFormSchema = z.object({
@@ -28,8 +29,15 @@ export function NewTransactionModal() {
     },
   });
 
-  function handleFormModal(data: ModalFormInputs) {
-    console.log(data);
+  async function handleFormModal(data: ModalFormInputs) {
+    const { category, description, price, type } = data;
+    await api.post("/transactions", {
+      category,
+      description,
+      price,
+      type,
+      createdAt: new Date(),
+    });
   }
   return (
     <Dialog.Portal>
