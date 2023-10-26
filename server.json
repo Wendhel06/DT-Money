@@ -17,33 +17,60 @@
       "createdAt": "2023-10-12T14:30:01.381Z"
     },
     {
-      "id": 3,
-      "description": "Pizza",
+      "description": "Desenvolvimento de app",
       "type": "outcome",
-      "category": "Alimentação",
+      "category": "Informatica",
       "price": 250,
-      "createdAt": "2023-10-12T14:30:01.381Z"
+      "createdAt": "2023-10-25T00:47:44.901Z",
+      "id": 3
     },
     {
-      "category": "Ensino",
       "description": "Desenvolvimento de app",
-      "price": 2000,
       "type": "outcome",
+      "category": "Informatica",
+      "price": 250,
+      "createdAt": "2023-10-25T00:47:46.090Z",
       "id": 4
     },
     {
-      "category": "Ensino",
       "description": "Desenvolvimento de app",
-      "price": 2000,
       "type": "outcome",
+      "category": "Informatica",
+      "price": 250,
+      "createdAt": "2023-10-25T00:47:46.503Z",
       "id": 5
     },
     {
-      "category": "Ensino",
       "description": "Desenvolvimento de app",
-      "price": 2000,
       "type": "outcome",
+      "category": "Informatica",
+      "price": 250,
+      "createdAt": "2023-10-25T00:47:46.758Z",
       "id": 6
+    },
+    {
+      "description": "Hamburguer",
+      "type": "income",
+      "category": "destaque",
+      "price": 150,
+      "createdAt": "2023-10-25T00:50:29.129Z",
+      "id": 7
+    },
+    {
+      "description": "Arroz",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 30,
+      "createdAt": "2023-10-25T01:16:41.017Z",
+      "id": 8
+    },
+    {
+      "description": "Camiseta",
+      "type": "income",
+      "category": "vestuario",
+      "price": 70,
+      "createdAt": "2023-10-26T00:57:51.445Z",
+      "id": 9
     }
   ]
 }

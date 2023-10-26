@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 
 :focus {
   outline: 0px;
-  box-shadow: 0 0 0 2px ${(props => props.theme['green-500'])}
+  box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']}
 }
 
 body {
