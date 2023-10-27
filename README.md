@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# Dt Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+## 🧪 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Como executar
 
-- Configure the top-level `parserOptions` property like this:
+Clone o projeto e acesse a pasta do mesmo.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+$ git clone https://github.com/Wendhel06/DT-Money
+$ cd DT-Money
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+
+# Iniciar server.json para simular uma API
+$ npm run dev:server
+```
+
+O app estará disponível no seu browser pelo endereço http://localhost:5173/.
+
+A API do projeto estará disponível no seu browser pelo endereço  http://localhost:3334/transactions.
+
+
+## 💻 Projeto
+
+Dt money é o front end de um gerenciador financeiro com interface moderna e muito fácil de usar.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através do link abaixo:
+
+- [Layout da Aplicação](https://www.figma.com/file/TVgTXNFmi1PkHFgByQLWH0/DT-Money-(Community)?node-id=0%3A1&mode=dev) 
+
+Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
+
+---
